@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(10, 5, 24);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: red;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    transition-duration: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: red;
+}
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: red;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    color: red;
+}
+
+
+.home-content .btn-box{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.btn-box a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    border: 2px red solid;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    transition-duration: 0.3s;
+    color: black;
+
+}
+
+
+
+
+
+.icons{
+    position: absolute;
+    bottom: 40px;
+    width: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: red;
+    
+}
+
+.home{
+    background: url(wallpaper.png);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
